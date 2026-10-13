@@ -67,7 +67,7 @@
 
 ```bash
 pip install pyinstaller
-pyinstaller --onefile --noconsole --name github-monitor github_monitor.pyw
+pyinstaller --onefile --noconsole --name github-monitor --icon github-monitor.ico github_monitor.pyw
 ```
 
 产物在 `dist/github-monitor.exe`。
