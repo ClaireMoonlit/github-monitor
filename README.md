@@ -38,7 +38,7 @@
 
 | 方式 | 说明 |
 | --- | --- |
-| Release 下载 | 直接双击 `github-monitor.exe`（无需安装 Python） |
+| Release 下载 | 直接双击 [github-monitor.exe](https://github.com/ClaireMoonlit/github-monitor/releases/latest/download/github-monitor.exe)（无需安装 Python） |
 | 源码运行 | 安装 Python 3.8+ 后双击 `github_monitor.pyw`（无控制台窗口），或命令行 `python github_monitor.pyw` |
 
 **开机自启**：`Win + R` 输入 `shell:startup`，把本程序的快捷方式放进去即可。
