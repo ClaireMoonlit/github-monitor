@@ -4,14 +4,30 @@
 
 ## 界面预览
 
-鼠标移入徽章查看状态，右键唤出菜单：
+徽章常驻桌面，鼠标移入查看状态，右键唤出菜单：
 
-<img src="docs/demo.gif" width="360" alt="移入徽章查看状态、右键唤出菜单">
+<img src="docs/demo.gif" width="360" alt="徽章常驻桌面、移入徽章查看状态、右键唤出菜单">
 
-| 常驻徽章 | 悬停气泡 | 右键菜单 |
-| :---: | :---: | :---: |
-| <img src="docs/shot-badge.png" width="96" alt="常驻徽章"> | <img src="docs/shot-hover.png" width="224" alt="悬停气泡"> | <img src="docs/shot-menu.png" width="158" alt="右键菜单"> |
-| 绿光晕 = 可直连<br>红光晕 = 无法直连 | 显示当前延迟<br>或失败原因 | 立即检测 / 退出 |
+### 可直连时（绿光晕）
+
+| 常驻徽章 | 悬停气泡 |
+| :---: | :---: |
+| <img src="docs/shot-badge-green.png" width="96" alt="可直连时的常驻徽章"> | <img src="docs/shot-hover-green.png" width="224" alt="可直连时的悬停气泡"> |
+| 绿色光晕 | 气泡显示当前延迟，如「直连 · 494ms」 |
+
+### 无法直连时（红光晕）
+
+| 常驻徽章 | 悬停气泡 |
+| :---: | :---: |
+| <img src="docs/shot-badge-red.png" width="96" alt="无法直连时的常驻徽章"> | <img src="docs/shot-hover-red.png" width="224" alt="无法直连时的悬停气泡"> |
+| 红色光晕呼吸闪烁 | 气泡显示失败原因，如「无法直连 · 超时」 |
+
+### 右键菜单
+
+| 右键菜单 |
+| :---: |
+| <img src="docs/shot-menu.png" width="158" alt="右键菜单：立即检测 / 退出"> |
+| 立即检测 / 退出 |
 
 ## 适合谁用
 
